@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+#signuppDefault{
+    display: "flex"; 
+     justify-content: "center";
+      align-items: "center";
+    height: "100vh";
+    width: "100vw"
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 80vh;
+    width: 100vw;
+}   
+#welcomeSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #5e5df0;
+}
+#formSection{
+   
+}
+#formSection h1{
+    font-size: 2rem;
+    padding-top: 20px;
+}
+#roleRadios{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30vh;
+    font-size: 1.7rem;
+}
+#roleRadios input{
+    width: 17px;
+    height: 17px;
+}
+#formTitle{
+    grid-row: 0;
+    grid-column: 1/3;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#roleInput{
+    grid-row: 1;
+    grid-column: 1/2;
+    padding: 20px;
+}
+#roleInput input {
+    width: 20%;
+    padding: 0px;
+    margin: 0px 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 1px solid #000000;
+}
+#roleInput label{
+font-size: 2rem;
+  
+}
+
+#roleInput{
+    grid-row: 2;
+    grid-column: 1/3;
+    padding-left: 20px;
+}
+#nameInput input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 1px solid #000000;
+}
+#nameInput label{
+font-size: 2rem;
+  
+}
+#passwordInput{
+    grid-row: 3;
+    grid-column: 1/2;
+    padding-left: 20px;
+}
+#passwordInput input,#confirmpassowrdInput input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 2rem;
+    border: 1px solid #000000;
+}
+#submitInput{
+    grid-row: 5;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10vw;
+  height: 7vh;
+  word-break: break-word;
+  border: 0;
+}
